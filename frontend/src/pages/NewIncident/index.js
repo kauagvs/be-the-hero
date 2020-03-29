@@ -7,7 +7,6 @@ import api from "../../services/api";
 import "./style.css";
 
 import logoImg from "../../assets/logo.svg";
-import api from "../../services/api";
 
 export default function NewIncident() {
   const [title, setTitle] = useState("");
